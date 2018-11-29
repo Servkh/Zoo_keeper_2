@@ -1,0 +1,17 @@
+package com.zookeeper.second;
+
+public class Bat {
+	
+	private int energyLevel;
+
+	public Bat() {
+		this.energyLevel = 300;
+	}
+	
+	public Bat fly() {
+		System.out.println("WEEEEEEEEEEZ,WEEEEZ Bat is taking off");
+		this.energyLevel -= 50;
+		return this;
+	}
+
+}
